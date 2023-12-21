@@ -1,0 +1,13 @@
+.blue {
+  background-color: rgb(19, 19, 99);
+}
+
+.image img {
+  width: 120px;
+  height: 50px;
+}
+
+.container {
+  display: flex;
+  max-width: 1200px;
+}

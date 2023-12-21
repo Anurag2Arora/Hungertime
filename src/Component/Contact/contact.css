@@ -1,0 +1,262 @@
+.blog {
+  width: 100%;
+  height: 350px;
+  background-color: rgb(19, 19, 99);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: black;
+  background-image: url("https://media.istockphoto.com/id/1127999445/photo/woman-preparing-dought-for-pizza.jpg?s=612x612&w=0&k=20&c=r08tRJVsNsjU7iRNvyr2duPbicYNbQSL0wnBmZSSaHY=");
+  flex-direction: column;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  gap: 50px;
+  background-color: rgb(19, 19, 99);
+  justify-content: center;
+  margin-top: 50px;
+}
+.card-text {
+  text-align: justify;
+}
+.hungertime {
+  width: 300px;
+  height: 300px;
+}
+.company {
+  width: 300px;
+  height: 300px;
+}
+.contact {
+  width: 300px;
+  height: 300px;
+}
+.opening {
+  width: 300px;
+  height: 300px;
+}
+.hungertime img {
+  width: 150px;
+}
+.footimage {
+  margin-top: 50px;
+}
+.text {
+  text-align: justify;
+  color: white;
+}
+.fb {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+.fb:hover {
+  background-color: red;
+}
+.icon {
+  display: flex;
+  color: white;
+  gap: 5px;
+}
+.last {
+  width: 100%;
+  height: 150px;
+  color: white;
+}
+.copy {
+  display: flex;
+  justify-content: space-between;
+}
+.hello {
+  display: flex;
+}
+.reviewc {
+  width: 100%;
+  height: 350px;
+
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: black;
+  flex-direction: column;
+}
+.reviewc img {
+  width: 400px;
+}
+
+/* //////////////////////////////////////////////////////////////////////////// */
+/* .pic {
+  margin-top: -75px;
+  margin-bottom: 50px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 11px solid white;
+}
+.client:hover {
+  .pic {
+    border: 11px solid red;
+  }
+}
+.pic img {
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+}
+.client_main {
+  display: flex;
+  gap: 30px;
+}
+.client {
+  width: 600px;
+  height: 450px;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: white;
+}
+.para {
+  padding: 50px 50px 10px 50px;
+  text-align: justify;
+}
+@media screen and (max-width: 480px) {
+  .footer {
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .hello {
+    flex-direction: column;
+    gap: 1px;
+  }
+} */
+/* //////////////////////////////////////////Hello/////////////////////////////////////////////// */
+.boxgroup {
+  display: flex;
+  gap: 75px;
+}
+.box {
+  width: 320px;
+  height: 120px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 1px 0.8px 8px;
+  color: black;
+}
+@media screen and (max-width: 480px) {
+  .client_main {
+    flex-direction: column;
+    gap: 80px;
+  }
+  .client {
+    width: 100%;
+  }
+  .boxgroup {
+    flex-direction: column;
+  }
+  .box {
+    width: 300px;
+  }
+  .reviewc {
+    margin-top: 300px;
+  }
+  .footerc {
+    margin-top: 250px;
+  }
+  .map-group {
+    flex-direction: column;
+  }
+  .form {
+    width: 450px;
+  }
+}
+
+.reviewc {
+  width: 100%;
+  height: 350px;
+
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: black;
+  flex-direction: column;
+}
+.reviewc img {
+  width: 400px;
+}
+.map-group {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  display: flex;
+  gap: 20px;
+}
+
+.form {
+  width: 100%;
+  height: 380px;
+  border: 2px solid black;
+}
+.input {
+  display: flex;
+  gap: 50px;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+input {
+  width: 200px;
+}
+.message input {
+  width: 450px;
+  height: 120px;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.submitbtn {
+  width: 450px;
+  height: 50px;
+  margin-top: 20px;
+  margin-left: 50px;
+  background-color: red;
+  border-radius: 8px;
+  cursor: pointer;
+}
+@media screen and (max-width: 480px) {
+  .input {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-top: 10px;
+  }
+  .message input {
+    margin-left: 100px;
+    width: 200px;
+    height: 35px;
+    margin-top: 10px;
+  }
+  .submitbtn {
+    width: 300px;
+    margin-left: 50px;
+  }
+  .footerc {
+    margin-top: 10px;
+  }
+  .form {
+    width: 400px;
+  }
+  .map iframe {
+    width: 400px;
+    margin-top: 30px;
+  }
+}
