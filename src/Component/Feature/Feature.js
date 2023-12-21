@@ -157,7 +157,6 @@ export default function Feature() {
           </div>
         </div>
       </div>
-      <div className="space"></div>
     </>
   );
 }

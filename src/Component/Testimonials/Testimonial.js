@@ -125,7 +125,6 @@ export default function Testimonial() {
           </div>
         </div>
       </div>
-      <div className="space"></div>
     </>
   );
 }

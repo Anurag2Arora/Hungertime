@@ -142,7 +142,7 @@ export default function Blogs() {
           </div>
         </div>
       </div>
-      <div className="space blue"></div>
+      {/* <div className="space blue"></div> */}
     </>
   );
 }

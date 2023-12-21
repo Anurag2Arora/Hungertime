@@ -150,7 +150,6 @@ export default function Contact() {
           </div>
         </div>
       </div>
-      <div className="space"></div>
     </>
   );
 }
